@@ -1,4 +1,4 @@
-import './SessionInput.css'
+import '../styles/SessionInput.css'
 const SessionInput = ({viewMatches}) => {
 	return(
 		<div className='largeContainer'>

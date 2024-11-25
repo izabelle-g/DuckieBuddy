@@ -1,4 +1,4 @@
-import './SignUp.css'
+import '../styles/SignUp.css'
 import ProfileEdit from './ProfileEdit';
 const SignUp = ({modify}) => {
 	return(

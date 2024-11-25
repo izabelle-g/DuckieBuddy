@@ -2,7 +2,7 @@
 // import viteLogo from '/vite.svg'
 import Home from './components/Home.jsx';
 import Login from './components/Login.jsx'
-import './App.css';
+import './styles/App.css';
 import SignUp from './components/SignUp';
 import { useState } from 'react';
 

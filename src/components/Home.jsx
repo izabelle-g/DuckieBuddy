@@ -1,6 +1,6 @@
 import Sidebar from './Sidebar';
 import SessionInput from './SessionInput';
-import './Home.css';
+import '../styles/Home.css';
 import { useState } from 'react';
 import SelectMatch from './SelectMatch';
 

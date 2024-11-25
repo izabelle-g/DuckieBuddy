@@ -1,5 +1,5 @@
 import ProfileEdit from "./ProfileEdit";
-import './Sidebar.css'
+import '../styles/Sidebar.css'
 
 const Sidebar = () => {
 	return(
