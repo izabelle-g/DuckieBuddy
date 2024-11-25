@@ -3,7 +3,6 @@ import SelectMatch from "./SelectMatch";
 import { useState } from "react";
 
 const FormArea = () => {
-    //const handleClick = (e) => ();
     const [view, setView] = useState();
 
 	return(
