@@ -1,17 +1,18 @@
-import ProfileEdit from "./ProfileEdit";
-import '../styles/Sidebar.css'
-
 const Sidebar = () => {
-	return(
-		<div>
-			<h2>Sidebar</h2>
-			<h4>Edit your Profile</h4>
-			<ProfileEdit></ProfileEdit>
-			<button onClick={() =>{
-				alert("YAY!");
-			}}>Submit</button>
-		</div>
-	)
-};
+    return(
+        <div>
+            <h2>username</h2>
+            <a href=""><img src="" rel="icon"/> </a>
+			<img/>
+			<hr></hr>
+            <div>
+                <h3>Messages</h3>
+                <ul>
+                    {}
+                </ul>
+            </div>
+        </div>
+    )
+}
 
 export default Sidebar

@@ -1,21 +1,14 @@
-import Home from './components/Home.jsx';
-import Login from './components/Login.jsx'
-import './styles/App.css';
-import SignUp from './components/SignUp';
-import { useState } from 'react';
+import Sidebar from "./components/Sidebar.jsx"
+import CurrentChat from "./components/CurrentChat.jsx"
 
 function App() {
-  let [firstPage, modify] = useState(0);
-  if (firstPage == 0) {
-    return (<Login modify={modify}></Login>)
-  }
-  else if(firstPage == 1){
-    return(<SignUp modify={modify}></SignUp>)
-  }
-
-    return (<Home></Home>)
-  
-  
+  return (
+    <div>
+        <Sidebar></Sidebar>
+        current chat is invisible at first
+        <CurrentChat></CurrentChat>
+    </div>
+  )
 }
 
 export default App
