@@ -1,0 +1,47 @@
+html {
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.range-container {
+    display: flex;
+    align-items: center;
+    /* width: 300px; */
+    margin: 20px;
+}
+
+.range-label {
+    width: 100px;
+    text-align: center;
+}
+
+.range-input {
+    flex: 1;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="range"] {
+    width: 200px;
+}
+#userTasks, #ownTasks{
+    display: flex;
+    flex-direction: column;
+}
+
+.singleTask{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
