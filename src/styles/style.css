@@ -10,3 +10,17 @@
     --main-font: 'Noto Sans SC', 'Trebuchet MS', Tahoma, sans-serif;
     --secondary-font: 'Noto Sans SC', 'Trebuchet MS', Tahoma, sans-serif;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px; /* Adjust the width as needed */
+    width: 100%;
+    padding: 0 20px; /* Optional: Add some padding */
+    box-sizing: border-box;
+}
